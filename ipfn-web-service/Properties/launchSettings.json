@@ -1,42 +1,4 @@
-# Postcode API
-
-This is a simple ASP.NET Core web service that provides postcode lookup and autocomplete functionality using the [Postcodes.io API](https://postcodes.io/).
-
-## Getting Started
-
-### Prerequisites
-
-- [.NET 6 SDK](https://dotnet.microsoft.com/download/dotnet/6.0)
-- [Visual Studio 2022](https://visualstudio.microsoft.com/vs/) or [JetBrains Rider](https://www.jetbrains.com/rider/)
-
-### Installation
-
-1. Clone the repository:
-    ```sh
-    git clone https://github.com/mztariq/ipfn-web-service.git
-    cd ipfn-web-service
-    ```
-
-2. Restore the dependencies:
-    ```sh
-    dotnet restore
-    ```
-
-### Running the Application
-
-1. Run the application:
-    ```sh
-    dotnet run
-    ```
-
-2. The application will start and be accessible at `http://localhost:5180`. The Swagger UI will be available at `http://localhost:5180/swagger`.
-
-### Configuration
-
-The application is configured to run with the following settings in `launchSettings.json`:
-
-```json
-{
+﻿{
   "$schema": "http://json.schemastore.org/launchsettings.json",
   "iisSettings": {
     "windowsAuthentication": false,
