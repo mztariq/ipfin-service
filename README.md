@@ -13,7 +13,7 @@ This is a simple ASP.NET Core web service that provides postcode lookup and auto
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/mztariq/ipfin-web-service.git
+    git clone https://github.com/mztariq/ipfin-service.git
     cd ipfn-web-service
     ```
 
